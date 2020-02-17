@@ -1,3 +1,24 @@
+button {
+  background: #faf1dd;
+  border: 1px solid #faf1dd;
+  color: #654321;
+  padding: 5px;
+  cursor: pointer;
+}
+header {
+  text-align: center;
+}
+/* layout */
+.content {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+}
+.content > div {
+  flex: 1;
+}
+
+/* 
 .App {
   text-align: center;
 }
@@ -35,4 +56,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
